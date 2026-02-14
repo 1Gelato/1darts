@@ -67,15 +67,10 @@ function loadNavbar() {
     // Mobile Menu Toggle
     const mobileMenuBtn = nav.querySelector('.mobile-menu-btn');
     const navLinks = nav.querySelector('.nav-links');
-    let scrollPosition = 0;
-
     function openMobileMenu() {
         mobileMenuBtn.classList.add('active');
         navLinks.classList.add('active');
-        // Lock body scroll
-        scrollPosition = window.pageYOffset;
         document.body.classList.add('menu-open');
-        document.body.style.top = `-${scrollPosition}px`;
     }
 
     function closeMobileMenu() {
@@ -88,10 +83,7 @@ function loadNavbar() {
         navLinks.querySelectorAll('.nav-dropdown.dropdown-open').forEach(link => {
             link.classList.remove('dropdown-open');
         });
-        // Unlock body scroll
         document.body.classList.remove('menu-open');
-        document.body.style.top = '';
-        window.scrollTo(0, scrollPosition);
     }
 
     mobileMenuBtn.addEventListener('click', () => {
