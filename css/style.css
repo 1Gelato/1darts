@@ -1196,16 +1196,26 @@ footer {
 .nav-links.active {
     display: flex;
     flex-direction: column;
-    position: absolute;
-    top: 100%;
+    position: fixed;
+    top: 60px;
     left: 0;
     right: 0;
+    bottom: 0;
     background: rgba(10, 14, 23, 0.98);
     backdrop-filter: blur(20px);
     padding: 1.5rem 2rem;
     gap: 0;
     border-bottom: 1px solid rgba(0, 168, 232, 0.2);
     animation: slideDown 0.3s ease;
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+    z-index: 999;
+}
+
+body.menu-open {
+    overflow: hidden;
+    position: fixed;
+    width: 100%;
 }
 
 .nav-links.active li {
@@ -1221,15 +1231,35 @@ footer {
     font-size: 1.1rem;
 }
 
+.nav-links.active .nav-dropdown .arrow {
+    transition: transform 0.3s ease;
+}
+
+.nav-links.active .nav-dropdown.dropdown-open .arrow {
+    transform: rotate(180deg);
+}
+
 .nav-links.active .dropdown-menu {
     position: static;
     transform: none;
-    opacity: 1;
-    visibility: visible;
-    margin-top: 0.5rem;
+    opacity: 0;
+    visibility: hidden;
+    max-height: 0;
+    overflow: hidden;
+    margin-top: 0;
+    padding: 0;
     background: rgba(0, 168, 232, 0.05);
     border: none;
     box-shadow: none;
+    transition: all 0.3s ease;
+}
+
+.nav-links.active .dropdown-menu.open {
+    opacity: 1;
+    visibility: visible;
+    max-height: 500px;
+    margin-top: 0.5rem;
+    padding: 0.5rem 0;
 }
 
 @keyframes slideDown {
