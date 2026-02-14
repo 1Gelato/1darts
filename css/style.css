@@ -1196,11 +1196,12 @@ footer {
 .nav-links.active {
     display: flex;
     flex-direction: column;
-    position: fixed;
-    top: 60px;
+    position: absolute;
+    top: 100%;
     left: 0;
     right: 0;
-    bottom: 0;
+    max-height: calc(100vh - 60px);
+    max-height: calc(100dvh - 60px);
     background: rgba(10, 14, 23, 0.98);
     backdrop-filter: blur(20px);
     padding: 1.5rem 2rem;
