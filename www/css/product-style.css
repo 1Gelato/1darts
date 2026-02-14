@@ -1,0 +1,473 @@
+/* ============================================
+   1-DARTS PRO - Product Page Styles
+   Shared across all product detail pages
+   ============================================ */
+
+/* Page Header / Breadcrumb */
+.page-header {
+    padding: 8rem 2rem 2rem;
+    background: rgba(17, 24, 39, 0.5);
+}
+
+.page-header-container {
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.breadcrumb {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    list-style: none;
+    margin-bottom: 1rem;
+    font-size: 0.95rem;
+}
+
+.breadcrumb li {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.breadcrumb a {
+    color: var(--text-secondary);
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.breadcrumb a:hover {
+    color: var(--neon-blue);
+}
+
+.breadcrumb .separator {
+    color: var(--text-secondary);
+    opacity: 0.5;
+}
+
+.breadcrumb .current {
+    color: var(--neon-blue);
+    font-weight: 600;
+}
+
+/* Product Hero */
+.product-hero {
+    padding: 4rem 2rem 6rem;
+    background: rgba(17, 24, 39, 0.5);
+}
+
+.product-hero-container {
+    max-width: 1400px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 4rem;
+    align-items: center;
+}
+
+.product-hero-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.product-hero-image img {
+    max-height: 600px;
+    width: auto;
+    filter: drop-shadow(0 0 60px rgba(0, 168, 232, 0.3));
+    animation: float 4s ease-in-out infinite;
+}
+
+.product-hero-image .placeholder-icon {
+    font-size: 12rem;
+    opacity: 0.4;
+    filter: drop-shadow(0 0 40px rgba(0, 168, 232, 0.3));
+    animation: float 4s ease-in-out infinite;
+}
+
+.product-hero-glow {
+    position: absolute;
+    width: 350px;
+    height: 350px;
+    background: radial-gradient(circle, rgba(0, 168, 232, 0.25) 0%, transparent 70%);
+    border-radius: 50%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+    animation: pulse 3s ease-in-out infinite;
+}
+
+.product-hero-details h1 {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 3.5rem;
+    font-weight: 900;
+    letter-spacing: 2px;
+    margin-bottom: 0.5rem;
+}
+
+.product-hero-details .product-subtitle {
+    color: var(--neon-blue);
+    font-size: 1.3rem;
+    font-weight: 500;
+    margin-bottom: 1.5rem;
+    letter-spacing: 1px;
+}
+
+.product-hero-details .product-description {
+    color: var(--text-secondary);
+    font-size: 1.15rem;
+    line-height: 1.8;
+    margin-bottom: 2rem;
+    max-width: 500px;
+}
+
+.product-hero-badge {
+    display: inline-block;
+    padding: 0.4rem 1rem;
+    background: rgba(255, 59, 74, 0.15);
+    border: 1px solid rgba(255, 59, 74, 0.3);
+    border-radius: 50px;
+    font-size: 0.85rem;
+    font-weight: 600;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: var(--accent-red);
+    margin-bottom: 1.5rem;
+}
+
+.product-hero-cta {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+/* Specs Section */
+.product-specs-section {
+    padding: 6rem 2rem;
+}
+
+.product-specs-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.specs-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+    margin-top: 3rem;
+}
+
+.spec-card {
+    background: var(--card-bg);
+    border: 1px solid var(--card-border);
+    border-radius: 12px;
+    padding: 2rem;
+    text-align: center;
+    transition: all 0.3s ease;
+}
+
+.spec-card:hover {
+    border-color: rgba(0, 168, 232, 0.3);
+    transform: translateY(-5px);
+    box-shadow: 0 15px 40px rgba(0, 168, 232, 0.1);
+}
+
+.spec-card-icon {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.spec-card h4 {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 1rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin-bottom: 0.5rem;
+    color: var(--text-secondary);
+}
+
+.spec-card .spec-card-value {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 1.4rem;
+    font-weight: 800;
+    color: var(--neon-blue);
+}
+
+/* Features Section */
+.product-features {
+    padding: 6rem 2rem;
+    background: rgba(17, 24, 39, 0.5);
+}
+
+.product-features-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.features-list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+    margin-top: 3rem;
+}
+
+.feature-item {
+    display: flex;
+    gap: 1.5rem;
+    padding: 2rem;
+    background: var(--card-bg);
+    border: 1px solid var(--card-border);
+    border-radius: 12px;
+    transition: all 0.3s ease;
+}
+
+.feature-item:hover {
+    border-color: rgba(0, 168, 232, 0.3);
+    background: rgba(0, 168, 232, 0.05);
+}
+
+.feature-icon {
+    flex-shrink: 0;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(0, 168, 232, 0.1);
+    border-radius: 10px;
+    font-size: 1.5rem;
+}
+
+.feature-content h4 {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 1.1rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+    letter-spacing: 0.5px;
+}
+
+.feature-content p {
+    color: var(--text-secondary);
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+/* Product CTA Section */
+.product-cta-section {
+    padding: 6rem 2rem;
+    text-align: center;
+}
+
+.product-cta-container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.product-cta-container h2 {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 2.5rem;
+    font-weight: 800;
+    margin-bottom: 1.5rem;
+    letter-spacing: 1px;
+}
+
+.product-cta-container p {
+    color: var(--text-secondary);
+    font-size: 1.2rem;
+    margin-bottom: 2.5rem;
+    line-height: 1.8;
+}
+
+.product-cta-buttons {
+    display: flex;
+    gap: 1.5rem;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+/* Other Products Section */
+.other-products {
+    padding: 6rem 2rem;
+    background: rgba(17, 24, 39, 0.5);
+}
+
+.other-products-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.other-products-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    margin-top: 3rem;
+}
+
+.other-product-card {
+    background: var(--card-bg);
+    border: 1px solid var(--card-border);
+    border-radius: 12px;
+    padding: 2rem;
+    text-align: center;
+    transition: all 0.4s ease;
+}
+
+.other-product-card:hover {
+    border-color: var(--primary-blue);
+    transform: translateY(-8px);
+    box-shadow: 0 20px 50px rgba(0, 168, 232, 0.15);
+}
+
+.other-product-card img {
+    max-height: 200px;
+    width: auto;
+    margin-bottom: 1.5rem;
+    filter: drop-shadow(0 10px 20px rgba(0, 0, 0, 0.2));
+}
+
+.other-product-card .placeholder-icon {
+    font-size: 5rem;
+    opacity: 0.5;
+    margin-bottom: 1.5rem;
+    display: block;
+}
+
+.other-product-card h4 {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 1.3rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+    letter-spacing: 1px;
+}
+
+.other-product-card p {
+    color: var(--text-secondary);
+    margin-bottom: 1.5rem;
+}
+
+.other-product-card .btn-secondary {
+    padding: 0.7rem 1.5rem;
+    font-size: 0.95rem;
+    display: inline-block;
+}
+
+/* Catalog Page Styles (accessories, spare parts) */
+.catalog-section {
+    padding: 6rem 2rem;
+}
+
+.catalog-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.catalog-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 2rem;
+    margin-top: 3rem;
+}
+
+.catalog-card {
+    background: var(--card-bg);
+    border: 1px solid var(--card-border);
+    border-radius: 16px;
+    overflow: hidden;
+    transition: all 0.4s ease;
+}
+
+.catalog-card:hover {
+    border-color: var(--primary-blue);
+    transform: translateY(-8px);
+    box-shadow: 0 20px 50px rgba(0, 168, 232, 0.15);
+}
+
+.catalog-card-image {
+    padding: 2.5rem;
+    background: linear-gradient(180deg, rgba(0, 168, 232, 0.05) 0%, transparent 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 200px;
+}
+
+.catalog-card-image .catalog-icon {
+    font-size: 5rem;
+    opacity: 0.6;
+}
+
+.catalog-card-info {
+    padding: 2rem;
+    border-top: 1px solid var(--card-border);
+}
+
+.catalog-card-info h3 {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 1.3rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+    letter-spacing: 1px;
+}
+
+.catalog-card-info p {
+    color: var(--text-secondary);
+    font-size: 1rem;
+    line-height: 1.6;
+    margin-bottom: 1.5rem;
+}
+
+.catalog-card-info .btn-primary {
+    display: block;
+    text-align: center;
+    padding: 0.8rem 1.5rem;
+    font-size: 0.95rem;
+}
+
+/* Responsive for product pages */
+@media (max-width: 1024px) {
+    .product-hero-container {
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+
+    .product-hero-image {
+        order: -1;
+    }
+
+    .product-hero-image img {
+        max-height: 400px;
+    }
+
+    .product-hero-details .product-description {
+        margin: 0 auto 2rem;
+    }
+
+    .product-hero-cta {
+        justify-content: center;
+    }
+
+    .features-list {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 768px) {
+    .product-hero-details h1 {
+        font-size: 2.5rem;
+    }
+
+    .product-hero-image img {
+        max-height: 300px;
+    }
+
+    .specs-grid {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .product-cta-container h2 {
+        font-size: 2rem;
+    }
+}
