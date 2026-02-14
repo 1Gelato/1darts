@@ -1204,7 +1204,7 @@ footer {
     max-height: calc(100dvh - 60px);
     background: rgba(10, 14, 23, 0.98);
     backdrop-filter: blur(20px);
-    padding: 1.5rem 2rem;
+    padding: 0.5rem 1rem;
     gap: 0;
     border-bottom: 1px solid rgba(0, 168, 232, 0.2);
     animation: slideDown 0.3s ease;
@@ -1219,17 +1219,21 @@ body.menu-open {
     touch-action: none;
 }
 
-.nav-links.active li {
-    padding: 1rem 0;
+.nav-links.active > li {
+    padding: 0.8rem 0.5rem;
     border-bottom: 1px solid rgba(255, 255, 255, 0.05);
 }
 
-.nav-links.active li:last-child {
+.nav-links.active > li:last-child {
     border-bottom: none;
 }
 
 .nav-links.active a {
-    font-size: 1.1rem;
+    font-size: 1rem;
+}
+
+.nav-links.active .dropdown-menu li {
+    padding: 0;
 }
 
 .nav-links.active .nav-dropdown .arrow {

@@ -16,7 +16,7 @@ function loadNavbar() {
                 <li><a href="${base}index.html#services">Qui sommes-nous</a></li>
                 <li><a href="${base}index.html#services">Services</a></li>
                 <li><a href="${base}index.html#contact">Animations &amp; Comp\u00e9titions</a></li>
-                <li>
+                <li class="has-dropdown">
                     <a href="${base}index.html#products" class="nav-dropdown">Produits <span class="arrow">&#9660;</span></a>
                     <ul class="dropdown-menu">
                         <li><a href="${base}produits/d-one.html">D-ONE</a></li>
@@ -27,7 +27,7 @@ function loadNavbar() {
                     </ul>
                 </li>
                 <li><a href="${base}index.html#advantages">Avantages</a></li>
-                <li>
+                <li class="has-dropdown">
                     <a href="#" class="nav-dropdown">Aide <span class="arrow">&#9660;</span></a>
                     <ul class="dropdown-menu">
                         <li><a href="#">Support Blog</a></li>
@@ -67,6 +67,11 @@ function loadNavbar() {
     // Mobile Menu Toggle
     const mobileMenuBtn = nav.querySelector('.mobile-menu-btn');
     const navLinks = nav.querySelector('.nav-links');
+
+    function isMobile() {
+        return window.innerWidth <= 768;
+    }
+
     function openMobileMenu() {
         mobileMenuBtn.classList.add('active');
         navLinks.classList.add('active');
@@ -86,7 +91,8 @@ function loadNavbar() {
         document.body.classList.remove('menu-open');
     }
 
-    mobileMenuBtn.addEventListener('click', () => {
+    mobileMenuBtn.addEventListener('click', (e) => {
+        e.stopPropagation();
         if (navLinks.classList.contains('active')) {
             closeMobileMenu();
         } else {
@@ -97,8 +103,7 @@ function loadNavbar() {
     // Mobile dropdown toggle (tap to open/close submenus)
     navLinks.querySelectorAll('.nav-dropdown').forEach(dropdownLink => {
         dropdownLink.addEventListener('click', (e) => {
-            // Only intercept on mobile
-            if (window.innerWidth <= 768) {
+            if (isMobile()) {
                 e.preventDefault();
                 e.stopPropagation();
                 const dropdownMenu = dropdownLink.parentElement.querySelector('.dropdown-menu');
@@ -129,7 +134,8 @@ function loadNavbar() {
     });
 
     // Smooth scroll for anchor links on same page
-    nav.querySelectorAll('a[href*="#"]').forEach(anchor => {
+    // IMPORTANT: exclude .nav-dropdown links — those toggle dropdowns on mobile
+    nav.querySelectorAll('a[href*="#"]:not(.nav-dropdown)').forEach(anchor => {
         anchor.addEventListener('click', function (e) {
             const href = this.getAttribute('href');
             const hashIndex = href.indexOf('#');
