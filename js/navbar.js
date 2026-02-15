@@ -11,7 +11,7 @@ function loadNavbar() {
     const nav = document.createElement('nav');
     nav.innerHTML = `
         <div class="nav-container">
-            <a href="${base}index.html" class="logo"><img src="${base}images/logo-1darts-white.svg" alt="1-DARTS" class="logo-img"></a>
+            <a href="${base}index.html" class="logo"><img src="${base}images/logo-1darts-white.svg" alt="1-DARTS" class="logo-img"><span class="logo-pro">PRO</span></a>
             <ul class="nav-links">
                 <li><a href="${base}index.html#services">Qui sommes-nous</a></li>
                 <li><a href="${base}index.html#services">Services</a></li>
