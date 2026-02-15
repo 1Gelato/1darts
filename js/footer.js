@@ -12,7 +12,7 @@ function loadFooter() {
     footer.innerHTML = `
         <div class="footer-container">
             <div class="footer-brand">
-                <a href="${base}index.html" class="logo">1-DARTS <span>PRO</span></a>
+                <a href="${base}index.html" class="logo"><img src="${base}images/logo-1darts-white.svg" alt="1-DARTS" class="logo-img"></a>
                 <p>Leader fran\u00e7ais de la vente, location et exploitation de jeux de fl\u00e9chettes \u00e9lectroniques professionnels. 28 ans d'exp\u00e9rience.</p>
                 <div class="social-links">
                     <a href="#" aria-label="Facebook">f</a>

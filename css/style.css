@@ -98,20 +98,14 @@ nav.scrolled {
 }
 
 .logo {
-    font-family: 'Orbitron', sans-serif;
-    font-size: 1.8rem;
-    font-weight: 800;
-    background: var(--gradient-blue);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
-    letter-spacing: 2px;
     text-decoration: none;
+    display: flex;
+    align-items: center;
 }
 
-.logo span {
-    color: var(--accent-red);
-    -webkit-text-fill-color: var(--accent-red);
+.logo-img {
+    height: 45px;
+    width: auto;
 }
 
 .nav-links {
@@ -1084,7 +1078,11 @@ footer {
 
 .footer-brand .logo {
     margin-bottom: 1rem;
-    display: inline-block;
+    display: inline-flex;
+}
+
+.footer-brand .logo-img {
+    height: 50px;
 }
 
 .footer-brand p {
@@ -1575,7 +1573,7 @@ body.menu-open {
         background: rgba(10, 14, 23, 0.98);
     }
 
-    .logo {
-        font-size: 1.4rem;
+    .logo-img {
+        height: 35px;
     }
 }
