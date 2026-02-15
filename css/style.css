@@ -104,7 +104,7 @@ nav.scrolled {
 }
 
 .logo-img {
-    height: 45px;
+    height: 70px;
     width: auto;
 }
 
@@ -1082,7 +1082,7 @@ footer {
 }
 
 .footer-brand .logo-img {
-    height: 50px;
+    height: 70px;
 }
 
 .footer-brand p {
@@ -1574,6 +1574,6 @@ body.menu-open {
     }
 
     .logo-img {
-        height: 35px;
+        height: 50px;
     }
 }
