@@ -1,5 +1,9 @@
 RewriteEngine On
 
+# Redirect onedarts.fr to 1darts.fr
+RewriteCond %{HTTP_HOST} ^(www\.)?onedarts\.fr$ [NC]
+RewriteRule ^(.*)$ https://1darts.fr/$1 [L,R=301]
+
 # Force HTTPS
 RewriteCond %{HTTPS} off
 RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
