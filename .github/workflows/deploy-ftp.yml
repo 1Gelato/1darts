@@ -18,9 +18,8 @@ jobs:
           server: ${{ secrets.FTP_SERVER }}
           username: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
-          protocol: ftps
+          protocol: ftp
           port: 21
-          security: loose
           server-dir: /1darts/
           timeout: 60000
           exclude: |
