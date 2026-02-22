@@ -779,6 +779,9 @@ nav.scrolled {
     border-radius: 16px;
     padding: 2.5rem;
     margin-top: 3rem;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .accessories-card h3 {
