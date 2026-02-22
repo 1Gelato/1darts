@@ -1,0 +1,292 @@
+{
+  "products": [
+    {
+      "id": "d-one",
+      "slug": "d-one",
+      "directory": "produits",
+      "name": "D-ONE",
+      "pageTitle": "D-ONE - 1-Darts Pro",
+      "badge": "Compact",
+      "subtitle": "L'essentiel du divertissement",
+      "description": "La D-ONE est la solution idéale pour les établissements souhaitant proposer une expérience de fléchettes électroniques de qualité professionnelle dans un format compact et accessible.",
+      "image": {
+        "src": "images/d-one.webp",
+        "alt": "1-Darts D-ONE"
+      },
+      "specs": {
+        "sectionTitle": "FICHE TECHNIQUE D-ONE",
+        "items": [
+          { "icon": "&#128187;", "label": "Écran", "value": "15\" LCD Tactile" },
+          { "icon": "&#127918;", "label": "Jeux", "value": "30+ variantes" },
+          { "icon": "&#128101;", "label": "Joueurs", "value": "1 à 4" },
+          { "icon": "&#128225;", "label": "Connectivité", "value": "WiFi / Ethernet" }
+        ]
+      },
+      "features": {
+        "sectionTitle": "POURQUOI CHOISIR LA D-ONE",
+        "items": [
+          {
+            "icon": "&#9889;",
+            "title": "Installation rapide",
+            "description": "Mise en service simplifiée, plug & play. Opérationnelle en quelques minutes."
+          },
+          {
+            "icon": "&#128295;",
+            "title": "Maintenance facilitée",
+            "description": "Accès aisé aux composants pour un entretien rapide et efficace."
+          },
+          {
+            "icon": "&#127919;",
+            "title": "Précision professionnelle",
+            "description": "Cible électronique haute précision pour une expérience de jeu optimale."
+          },
+          {
+            "icon": "&#128202;",
+            "title": "Suivi en temps réel",
+            "description": "Statistiques d'utilisation et revenus accessibles depuis votre tableau de bord."
+          }
+        ]
+      },
+      "cta": {
+        "title": "INTÉRESSÉ PAR LA D-ONE ?",
+        "text": "Contactez notre équipe commerciale pour obtenir un devis personnalisé adapté à vos besoins. Vente, location ou exploitation.",
+        "primary": { "text": "Demander un devis", "href": "index.html#contact" },
+        "secondary": { "text": "Nous appeler", "href": "tel:+33954934990" },
+        "secondaryLabel": "09 54 93 49 90"
+      },
+      "related": ["d-two", "d-wall", "d-wall-monnayeur"],
+      "catalogueCard": {
+        "page": "index",
+        "section": "product-showcase",
+        "order": 1,
+        "tagline": "L'essentiel du divertissement",
+        "specs": [
+          { "label": "Écran", "value": "15\" LCD tactile" },
+          { "label": "Jeux", "value": "30+ variantes" },
+          { "label": "Joueurs", "value": "1 à 4" },
+          { "label": "Connectivité", "value": "WiFi / Ethernet" }
+        ],
+        "price": { "label": "À partir de", "value": "Demander devis" }
+      },
+      "otherProductCard": {
+        "subtitle": "L'essentiel du divertissement, compact et efficace"
+      }
+    },
+    {
+      "id": "d-two",
+      "slug": "d-two",
+      "directory": "produits",
+      "name": "D-TWO",
+      "pageTitle": "D-TWO - 1-Darts Pro",
+      "badge": "Premium",
+      "subtitle": "L'expérience ultime",
+      "description": "La D-TWO est notre modèle haut de gamme, conçu pour offrir une expérience de jeu immersive avec son double écran HD et ses fonctionnalités avancées. Idéale pour les établissements exigeants.",
+      "image": {
+        "src": "images/d-two.webp",
+        "alt": "1-Darts D-TWO"
+      },
+      "specs": {
+        "sectionTitle": "FICHE TECHNIQUE D-TWO",
+        "items": [
+          { "icon": "&#128187;", "label": "Écrans", "value": "2× 22\" HD" },
+          { "icon": "&#127918;", "label": "Jeux", "value": "50+ variantes" },
+          { "icon": "&#128101;", "label": "Joueurs", "value": "1 à 4" },
+          { "icon": "&#128225;", "label": "Connectivité", "value": "WiFi / 4G / Ethernet" }
+        ]
+      },
+      "features": {
+        "sectionTitle": "POURQUOI CHOISIR LA D-TWO",
+        "items": [
+          {
+            "icon": "&#128187;",
+            "title": "Double écran HD",
+            "description": "Deux écrans 22\" pour une visibilité parfaite des scores et animations, même à distance."
+          },
+          {
+            "icon": "&#128225;",
+            "title": "Connectivité avancée",
+            "description": "WiFi, 4G et Ethernet pour une connexion fiable en toutes circonstances."
+          },
+          {
+            "icon": "&#127942;",
+            "title": "Mode tournoi",
+            "description": "Fonctionnalités de compétition intégrées pour organiser des tournois professionnels."
+          },
+          {
+            "icon": "&#128176;",
+            "title": "Rentabilité maximale",
+            "description": "Design attractif et expérience premium qui fidélisent les joueurs et maximisent les revenus."
+          }
+        ]
+      },
+      "cta": {
+        "title": "INTÉRESSÉ PAR LA D-TWO ?",
+        "text": "Contactez notre équipe commerciale pour obtenir un devis personnalisé adapté à vos besoins. Vente, location ou exploitation.",
+        "primary": { "text": "Demander un devis", "href": "index.html#contact" },
+        "secondary": { "text": "Nous appeler", "href": "tel:+33954934990" },
+        "secondaryLabel": "09 54 93 49 90"
+      },
+      "related": ["d-one", "d-wall", "d-wall-monnayeur"],
+      "catalogueCard": {
+        "page": "index",
+        "section": "product-showcase",
+        "order": 2,
+        "tagline": "L'expérience ultime",
+        "specs": [
+          { "label": "Écrans", "value": "2× 22\" HD" },
+          { "label": "Jeux", "value": "50+ variantes" },
+          { "label": "Joueurs", "value": "1 à 4" },
+          { "label": "Connectivité", "value": "WiFi / 4G / Ethernet" }
+        ],
+        "price": { "label": "À partir de", "value": "Demander devis" }
+      },
+      "otherProductCard": {
+        "subtitle": "L'expérience ultime avec double écran HD"
+      }
+    },
+    {
+      "id": "d-wall",
+      "slug": "d-wall",
+      "directory": "produits",
+      "name": "D-WALL",
+      "pageTitle": "D-WALL - 1-Darts Pro",
+      "badge": "Nouveau",
+      "subtitle": "Jeu mural, Compact et HighTech",
+      "description": "La D-WALL révolutionne le concept de fléchettes électroniques avec son format mural ultra-compact. Parfaite pour les espaces restreints, elle offre une expérience de jeu complète sans compromis sur la qualité.",
+      "image": {
+        "src": "images/d-wall.webp",
+        "alt": "1-Darts D-WALL"
+      },
+      "specs": {
+        "sectionTitle": "FICHE TECHNIQUE D-WALL",
+        "items": [
+          { "icon": "&#128187;", "label": "Écran", "value": "À venir" },
+          { "icon": "&#127918;", "label": "Jeux", "value": "30+ variantes" },
+          { "icon": "&#128101;", "label": "Joueurs", "value": "1 à 4" },
+          { "icon": "&#128204;", "label": "Type", "value": "Mural" }
+        ]
+      },
+      "features": {
+        "sectionTitle": "POURQUOI CHOISIR LA D-WALL",
+        "items": [
+          {
+            "icon": "&#128204;",
+            "title": "Format mural compact",
+            "description": "S'intègre facilement dans n'importe quel espace. Idéale pour les petits établissements."
+          },
+          {
+            "icon": "&#9889;",
+            "title": "Technologie HighTech",
+            "description": "Électronique de dernière génération pour des performances et une fiabilité exceptionnelles."
+          },
+          {
+            "icon": "&#128295;",
+            "title": "Installation simplifiée",
+            "description": "Fixation murale rapide, sans aménagement complexe. Prête à jouer en quelques minutes."
+          },
+          {
+            "icon": "&#128176;",
+            "title": "Rapport qualité-prix",
+            "description": "Une solution accessible qui offre toute la qualité professionnelle 1-Darts dans un format économique."
+          }
+        ]
+      },
+      "cta": {
+        "title": "INTÉRESSÉ PAR LA D-WALL ?",
+        "text": "Contactez notre équipe commerciale pour obtenir un devis personnalisé adapté à vos besoins. Vente, location ou exploitation.",
+        "primary": { "text": "Demander un devis", "href": "index.html#contact" },
+        "secondary": { "text": "Nous appeler", "href": "tel:+33954934990" },
+        "secondaryLabel": "09 54 93 49 90"
+      },
+      "related": ["d-one", "d-two", "d-wall-monnayeur"],
+      "catalogueCard": {
+        "page": "index",
+        "section": "product-showcase",
+        "order": 3,
+        "tagline": "Jeu mural, Compact et HighTech",
+        "specs": [
+          { "label": "Écran", "value": "À venir" },
+          { "label": "Jeux", "value": "30+ variantes" },
+          { "label": "Joueurs", "value": "1 à 4" },
+          { "label": "Type", "value": "Mural" }
+        ],
+        "price": { "label": "À partir de", "value": "Demander devis" }
+      },
+      "otherProductCard": {
+        "subtitle": "Jeu mural compact et HighTech"
+      }
+    },
+    {
+      "id": "d-wall-monnayeur",
+      "slug": "d-wall-monnayeur",
+      "directory": "produits",
+      "name": "D-WALL MONNAYEUR",
+      "pageTitle": "D-WALL Monnayeur - 1-Darts Pro",
+      "badge": "Monnayeur",
+      "subtitle": "Jeu mural autonome avec monnayeur",
+      "description": "La D-WALL Monnayeur combine le format mural compact de la D-WALL avec un accepteur de pièces intégré. Fonctionnement 100% autonome, sans intervention du personnel. Idéale pour les établissements souhaitant générer des revenus sans contrainte de gestion.",
+      "image": {
+        "src": "images/d-wall-monnayeur.webp",
+        "alt": "1-Darts D-WALL Monnayeur"
+      },
+      "specs": {
+        "sectionTitle": "FICHE TECHNIQUE D-WALL MONNAYEUR",
+        "items": [
+          { "icon": "&#128187;", "label": "Écran", "value": "À venir" },
+          { "icon": "&#127918;", "label": "Jeux", "value": "30+ variantes" },
+          { "icon": "&#128176;", "label": "Paiement", "value": "Monnayeur intégré" },
+          { "icon": "&#128204;", "label": "Type", "value": "Mural autonome" }
+        ]
+      },
+      "features": {
+        "sectionTitle": "POURQUOI CHOISIR LA D-WALL MONNAYEUR",
+        "items": [
+          {
+            "icon": "&#128176;",
+            "title": "Monnayeur intégré",
+            "description": "Accepteur de pièces intégré pour un fonctionnement 100% autonome. Aucune intervention du personnel nécessaire."
+          },
+          {
+            "icon": "&#128204;",
+            "title": "Format mural compact",
+            "description": "Même encombrement réduit que la D-WALL. S'installe partout, même dans les espaces les plus restreints."
+          },
+          {
+            "icon": "&#128202;",
+            "title": "Collecte simplifiée",
+            "description": "Système de collecte sécurisé et suivi des revenus en temps réel depuis votre tableau de bord."
+          },
+          {
+            "icon": "&#9889;",
+            "title": "Technologie HighTech",
+            "description": "Électronique de dernière génération identique à la gamme D-WALL pour des performances optimales."
+          }
+        ]
+      },
+      "cta": {
+        "title": "INTÉRESSÉ PAR LA D-WALL MONNAYEUR ?",
+        "text": "Contactez notre équipe commerciale pour obtenir un devis personnalisé adapté à vos besoins. Vente, location ou exploitation.",
+        "primary": { "text": "Demander un devis", "href": "index.html#contact" },
+        "secondary": { "text": "Nous appeler", "href": "tel:+33954934990" },
+        "secondaryLabel": "09 54 93 49 90"
+      },
+      "related": ["d-one", "d-two", "d-wall"],
+      "catalogueCard": {
+        "page": "index",
+        "section": "product-showcase",
+        "order": 4,
+        "tagline": "Jeu mural autonome avec monnayeur",
+        "specs": [
+          { "label": "Écran", "value": "À venir" },
+          { "label": "Jeux", "value": "30+ variantes" },
+          { "label": "Paiement", "value": "Monnayeur intégré" },
+          { "label": "Type", "value": "Mural autonome" }
+        ],
+        "price": { "label": "À partir de", "value": "Demander devis" }
+      },
+      "otherProductCard": {
+        "subtitle": "Jeu mural autonome avec monnayeur intégré"
+      }
+    }
+  ]
+}

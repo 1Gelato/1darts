@@ -1,0 +1,13 @@
+{
+  "name": "1darts-site",
+  "private": true,
+  "scripts": {
+    "build": "node build.js"
+  },
+  "dependencies": {
+    "ejs": "^3.1.10"
+  },
+  "devDependencies": {
+    "http-server": "^14.1.1"
+  }
+}

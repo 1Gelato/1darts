@@ -36,6 +36,7 @@ function loadFooter() {
                     <li><a href="${base}produits/d-one.html">D-ONE</a></li>
                     <li><a href="${base}produits/d-two.html">D-TWO</a></li>
                     <li><a href="${base}produits/d-wall.html">D-WALL</a></li>
+                    <li><a href="${base}produits/d-wall-monnayeur.html">D-WALL Monnayeur</a></li>
                     <li><a href="${base}accessoires.html">Accessoires</a></li>
                     <li><a href="${base}pieces-detachees.html">Pi\u00e8ces d\u00e9tach\u00e9es</a></li>
                 </ul>

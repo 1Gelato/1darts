@@ -1,0 +1,28 @@
+                <!-- <%- product.name %> -->
+                <div class="product-card">
+                    <div class="product-image">
+                        <span class="product-badge"><%- product.badge %></span>
+<% if (product.image && product.image.src) { -%>
+                        <img src="<%- product.image.src %>" alt="<%- product.image.alt %>">
+<% } else { -%>
+                        <div style="font-size: 6rem; opacity: 0.6;">&#127919;</div>
+<% } -%>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-name"><%- product.name %></h3>
+                        <p class="product-tagline"><%- card.tagline %></p>
+                        <div class="product-specs">
+<% card.specs.forEach(function(spec) { -%>
+                            <div class="spec-item">
+                                <span class="spec-label"><%- spec.label %></span>
+                                <span class="spec-value"><%- spec.value %></span>
+                            </div>
+<% }); -%>
+                        </div>
+                        <div class="product-price">
+                            <span class="price-label"><%- card.price.label %></span>
+                            <span class="price-value"><%- card.price.value %></span>
+                        </div>
+                        <a href="<%- product.directory %>/<%- product.slug %>.html" class="product-cta">En savoir plus</a>
+                    </div>
+                </div>
