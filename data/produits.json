@@ -160,10 +160,10 @@
       "specs": {
         "sectionTitle": "FICHE TECHNIQUE D-WALL",
         "items": [
-          { "icon": "&#128187;", "label": "Écran", "value": "À venir" },
-          { "icon": "&#127918;", "label": "Jeux", "value": "30+ variantes" },
-          { "icon": "&#128101;", "label": "Joueurs", "value": "1 à 4" },
-          { "icon": "&#128204;", "label": "Type", "value": "Mural" }
+          { "icon": "&#128187;", "label": "Écran LCD", "value": "7 pouces" },
+          { "icon": "&#127918;", "label": "Types de jeux", "value": "10" },
+          { "icon": "&#128204;", "label": "Dimensions", "value": "L58 × P6 × H75 cm" },
+          { "icon": "&#9889;", "label": "Puissance", "value": "10W — 100-240V" }
         ]
       },
       "features": {
@@ -171,13 +171,13 @@
         "items": [
           {
             "icon": "&#128204;",
-            "title": "Format mural compact",
-            "description": "S'intègre facilement dans n'importe quel espace. Idéale pour les petits établissements."
+            "title": "Format mural ultra-compact",
+            "description": "Seulement 6 cm de profondeur et 17 kg. S'intègre facilement dans n'importe quel espace."
           },
           {
-            "icon": "&#9889;",
-            "title": "Technologie HighTech",
-            "description": "Électronique de dernière génération pour des performances et une fiabilité exceptionnelles."
+            "icon": "&#127919;",
+            "title": "Cible 15,5\" standard",
+            "description": "Cible de fléchettes à pointe souple de taille standard pour une expérience de jeu authentique."
           },
           {
             "icon": "&#128295;",
@@ -187,7 +187,7 @@
           {
             "icon": "&#128176;",
             "title": "Rapport qualité-prix",
-            "description": "Une solution accessible qui offre toute la qualité professionnelle 1-Darts dans un format économique."
+            "description": "Une solution accessible en alliages robustes qui offre toute la qualité professionnelle 1-Darts."
           }
         ]
       },
@@ -205,10 +205,10 @@
         "order": 3,
         "tagline": "Jeu mural, Compact et HighTech",
         "specs": [
-          { "label": "Écran", "value": "À venir" },
-          { "label": "Jeux", "value": "30+ variantes" },
-          { "label": "Joueurs", "value": "1 à 4" },
-          { "label": "Type", "value": "Mural" }
+          { "label": "Écran LCD", "value": "7 pouces" },
+          { "label": "Types de jeux", "value": "10" },
+          { "label": "Dimensions", "value": "L58 × P6 × H75 cm" },
+          { "label": "Poids", "value": "17 kg" }
         ],
         "price": { "label": "À partir de", "value": "Demander devis" }
       },
@@ -232,10 +232,10 @@
       "specs": {
         "sectionTitle": "FICHE TECHNIQUE D-WALL MONNAYEUR",
         "items": [
-          { "icon": "&#128187;", "label": "Écran", "value": "À venir" },
-          { "icon": "&#127918;", "label": "Jeux", "value": "30+ variantes" },
+          { "icon": "&#128187;", "label": "Écran tactile", "value": "15,6 pouces" },
+          { "icon": "&#127918;", "label": "Types de jeux", "value": "15" },
           { "icon": "&#128176;", "label": "Paiement", "value": "Monnayeur intégré" },
-          { "icon": "&#128204;", "label": "Type", "value": "Mural autonome" }
+          { "icon": "&#128204;", "label": "Dimensions", "value": "65 × P15 × H110 cm" }
         ]
       },
       "features": {
@@ -247,19 +247,19 @@
             "description": "Accepteur de pièces intégré pour un fonctionnement 100% autonome. Aucune intervention du personnel nécessaire."
           },
           {
-            "icon": "&#128204;",
-            "title": "Format mural compact",
-            "description": "Même encombrement réduit que la D-WALL. S'installe partout, même dans les espaces les plus restreints."
+            "icon": "&#128187;",
+            "title": "Écran tactile 15,6\"",
+            "description": "Grand écran tactile avec instructions intelligentes, notation automatique et graphismes de jeu attractifs."
           },
           {
-            "icon": "&#128202;",
-            "title": "Collecte simplifiée",
-            "description": "Système de collecte sécurisé et suivi des revenus en temps réel depuis votre tableau de bord."
+            "icon": "&#128225;",
+            "title": "Connecté en réseau",
+            "description": "Connexion réseau intégrée pour le suivi à distance, les mises à jour et le reporting des revenus."
           },
           {
-            "icon": "&#9889;",
-            "title": "Technologie HighTech",
-            "description": "Électronique de dernière génération identique à la gamme D-WALL pour des performances optimales."
+            "icon": "&#127919;",
+            "title": "Cible 15,5\" standard",
+            "description": "Cible en nylon haute précision, conçue pour que les pointes cassées soient facilement retirées."
           }
         ]
       },
@@ -277,10 +277,10 @@
         "order": 4,
         "tagline": "Jeu mural autonome avec monnayeur",
         "specs": [
-          { "label": "Écran", "value": "À venir" },
-          { "label": "Jeux", "value": "30+ variantes" },
+          { "label": "Écran tactile", "value": "15,6 pouces" },
+          { "label": "Types de jeux", "value": "15" },
           { "label": "Paiement", "value": "Monnayeur intégré" },
-          { "label": "Type", "value": "Mural autonome" }
+          { "label": "Poids", "value": "32 kg" }
         ],
         "price": { "label": "À partir de", "value": "Demander devis" }
       },
